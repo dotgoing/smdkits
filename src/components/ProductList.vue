@@ -97,9 +97,11 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 1rem;
 }
 
 .name {
+  font-weight: bold;
   flex-grow: 1;
   text-align: left;
 }

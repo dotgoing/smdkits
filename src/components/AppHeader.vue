@@ -21,6 +21,7 @@ header {
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
+  width: 100%;
   background-color: #333;
   color: #fff;
 }
