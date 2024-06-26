@@ -3,7 +3,7 @@
     <h1>Toolbox for electronics engineers in lab</h1>
     <nav>
       <router-link to="/products">Products</router-link>
-      <router-link to="/">About Us</router-link>
+      <router-link to="/about">About Us</router-link>
     </nav>
   </header>
 </template>
