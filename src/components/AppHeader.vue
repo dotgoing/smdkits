@@ -19,15 +19,17 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
   width: 100%;
   background-color: #333;
   color: #fff;
 }
 
+header h1 {
+  margin-left: 2rem;
+}
+
 nav a {
-  margin: 0 0.5rem;
+  margin-right: 2rem;
   color: #fff;
   text-decoration: none;
 }

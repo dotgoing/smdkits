@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <p>&copy; 2024 Product Showcase</p>
+    <p>&copy; 2024 必显科技</p>
   </footer>
 </template>
 
