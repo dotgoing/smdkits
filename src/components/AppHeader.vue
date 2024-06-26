@@ -1,9 +1,9 @@
 <template>
   <header>
-    <h1>Product Showcase</h1>
+    <h1>Toolbox for electronics engineers in lab</h1>
     <nav>
-      <router-link to="/">Home</router-link>
       <router-link to="/products">Products</router-link>
+      <router-link to="/">About Us</router-link>
     </nav>
   </header>
 </template>
@@ -19,7 +19,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   background-color: #333;
   color: #fff;
 }
