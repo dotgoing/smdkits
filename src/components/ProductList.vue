@@ -27,13 +27,17 @@ export default {
 
 <style scoped>
 .item-box {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(336px, 1fr));
+  grid-gap: 36px;
+  list-style: none;
+  position: relative;
+  padding-right: 72px;
+  padding-left: 72px;
 }
 
 .item {
   box-sizing: border-box;
-  margin: 2rem;
+  margin: 4rem;
 }
 </style>
