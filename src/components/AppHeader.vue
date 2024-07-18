@@ -16,7 +16,7 @@
               stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
           </svg>
         </div>
-        smd<span class="out">kits</span>
+        smd<span class="logo-color">kits</span>
       </h1>
 
     </router-link>
@@ -55,10 +55,6 @@ header h1 {
   align-items: center;
   justify-content: center;
   margin-left: 5rem;
-}
-
-.out {
-  color: #E06D3C;
 }
 
 nav a {

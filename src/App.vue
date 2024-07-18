@@ -61,4 +61,8 @@ export default {
   padding-bottom: calc(var(--footer-height, 60px) + 1rem);
   overflow-y: auto;
 }
+
+.logo-color {
+  color: #E06D3C;
+}
 </style>
