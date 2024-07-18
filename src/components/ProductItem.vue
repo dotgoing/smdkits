@@ -1,20 +1,9 @@
 <template>
   <div class="product">
-    <img v-if="imageMode" class="big-img" :src="currentImage" alt="empty" />
-    <video v-else class="big-img" controls>
-      <source :src="product.video" type="video/mp4">
-      <source :src="product.video" type="video/ogg">
-      Your browser does not support the video tag.
-    </video>
-
+    <router-link to="/about">
+      <img class="big-img" :src="currentImage" alt="empty" />
+    </router-link>
     <div class="thumbnail">
-      <svg v-if="product.video" class="small-img" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-        aria-labelledby="title" @click="showVideo(product.video)">
-        <title id="title">Play Video</title>
-        <circle cx="12" cy="12" r="12" fill="#4CAF50" />
-        <polygon points="10,8 16,12 10,16" fill="white" />
-      </svg>
-
       <div v-for="(image, index) in product.images" :key="index">
         <img class="small-img" :src="image" :alt="product.name" @click="showImage(image)" />
       </div>
@@ -47,8 +36,7 @@ export default {
   name: 'ProductItem',
   data() {
     return {
-      currentImage: '',
-      imageMode: true
+      currentImage: ''
     }
   },
   props: {
@@ -68,10 +56,8 @@ export default {
   methods: {
     showImage(image) {
       this.currentImage = image;
-      this.imageMode = true;
     },
     showVideo(video) {
-      this.imageMode = false;
       console.log(video);
     }
   }
