@@ -42,7 +42,6 @@ export default {
 
 .header,
 .footer {
-  background-color: #f8f9fa;
   text-align: center;
   flex-shrink: 0;
 }
@@ -55,20 +54,11 @@ export default {
   z-index: 1000;
 }
 
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-}
-
 .body {
   flex: 1;
   padding: 1rem;
   padding-top: calc(var(--header-height, 60px) + 1rem);
   padding-bottom: calc(var(--footer-height, 60px) + 1rem);
   overflow-y: auto;
-  background-color: #fff;
 }
 </style>

@@ -14,9 +14,6 @@ export default {
 footer {
   text-align: center;
   padding: 1rem;
-  background-color: #333;
-  color: #fff;
-  position: fixed;
   bottom: 0;
   width: 100%;
 }
