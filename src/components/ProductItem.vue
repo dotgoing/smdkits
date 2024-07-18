@@ -1,6 +1,6 @@
 <template>
   <div class="product">
-    <router-link to="/about">
+    <router-link :to="`/product/${product.id}`">
       <img class="big-img" :src="currentImage" alt="empty" />
     </router-link>
     <div class="thumbnail">

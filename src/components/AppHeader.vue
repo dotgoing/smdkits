@@ -21,7 +21,7 @@
 
     </router-link>
     <nav>
-      <router-link to="/products">Products</router-link>
+      <router-link to="/product">Products</router-link>
       <router-link to="/about">About Us</router-link>
     </nav>
   </header>
@@ -53,7 +53,7 @@ header h1 {
 .head {
   display: flex;
   align-items: center;
-  align-content: center;
+  justify-content: center;
   margin-left: 5rem;
 }
 
@@ -71,4 +71,3 @@ nav a:hover {
   text-decoration: underline;
 }
 </style>
-
